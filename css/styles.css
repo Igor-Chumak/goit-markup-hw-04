@@ -4,6 +4,7 @@
     --color-primary: #2E2F42;
     /* --color-primary:rgb(46, 47, 66); */
     --color-secondary: #434455;
+    --color-customs: #8E8F99;
     --color-accent: #404BBF;
 
     /* color-text */
@@ -29,6 +30,7 @@
     /* border-color */
     --brd-color: #E7E9FC;
     --brd-color-btn-portfolio: #E7E9FC;
+    
     /* fonts */
     --font-primary: 'Roboto', sans-serif;
     --font-secondary: 'Raleway', sans-serif;
@@ -289,7 +291,7 @@ header {
 }
 
 .whatwedo-title,
-.team-title  {
+.team-title, .customers-title  {
     text-transform: capitalize;
     font-size: 36px;
     line-height: calc(40/36);
@@ -339,9 +341,23 @@ header {
     padding: 130px 0 120px 0;
 }
 
-.customers-flex {}
+.customers-flex {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 24px;
+}
 
-.customers-item {}
+.customers-item {
+    max-width: 168px;
+    padding: 16px 32px;
+    border: 1px solid var(--color-customs);
+    border-radius: 4px;
+}
+
+.customers-item:is(:focus, :hover) {
+    border-color: var(--color-accent);
+}
 
 
 /* -- Portfolio Page -- */
