@@ -335,6 +335,15 @@ header {
     text-align: center;
 }
 
+.customers-section {
+    padding: 130px 0 120px 0;
+}
+
+.customers-flex {}
+
+.customers-item {}
+
+
 /* -- Portfolio Page -- */
 
 .filters {
