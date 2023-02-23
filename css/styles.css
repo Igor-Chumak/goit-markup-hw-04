@@ -264,12 +264,19 @@ header {
     max-width: 264px;
 }
 
+.features-icon-box {
+    background-color: var(--bg-color-light);
+    border-radius: 4px;
+    padding: 24px 100px;
+}
+
 .features-icon {
     width: 64px;
     height: 64px;
 }
 
 .features-title {
+    margin-top: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: calc(24/20);
