@@ -24,6 +24,7 @@
     --bg-color-light: #F4F4FD;
     --bg-color-btn-hero: #4D5AE5;
     --bg-color-btn-hero-hover: #404BBF;
+    --bg-color-team-icon: #4D5AE5;
     --bg-color-btn-portfolio: #F4F4FD;
     --bg-color-btn-portfolio-hover: #404BBF;
 
@@ -348,6 +349,26 @@ header {
     letter-spacing: 0.02em;
     text-align: center;
 }
+
+.team-icons-box {
+    display: flex;
+    gap: 24px;
+    margin: 8px 16px 32px 16px;
+}
+
+.team-icon-box {
+    width: 40px;
+    height: 40px;
+    background-color: var(--bg-color-team-icon);
+    border-radius: 50%;
+    padding: 12px;
+}
+
+.team-icon {
+    width: 16px;
+    height: 16px;
+}
+
 
 .customers-section {
     padding: 130px 0 120px 0;
