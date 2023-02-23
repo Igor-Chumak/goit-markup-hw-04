@@ -284,7 +284,7 @@ header {
     gap: 24px;
 }
 
-.whatwedo-flex > li {
+.whatwedo-item {
     max-width: 360px;
 }
 
@@ -309,7 +309,7 @@ header {
     gap: 24px;
 }
 
-.team-flex > li {
+.team-item {
     max-width: 264px;
     background-color: var(--bg-color);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -320,21 +320,19 @@ header {
     padding: 32px 16px;
 }
 
-.team-item {
+.team-item-header {
     margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: calc(24/20);
     letter-spacing: 0.02em;
     text-align: center;
-    /* background-color: var(--bg-color); */
 }
 
 .team-description {
     color: var(--color-secondary);
     letter-spacing: 0.02em;
     text-align: center;
-    /* background-color: var(--bg-color); */
 }
 
 /* -- Portfolio Page -- */
