@@ -264,6 +264,11 @@ header {
     max-width: 264px;
 }
 
+.features-icon {
+    width: 64px;
+    height: 64px;
+}
+
 .features-title {
     font-weight: 500;
     font-size: 20px;
@@ -343,7 +348,7 @@ header {
 
 .customers-flex {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     /* align-items: center; */
     gap: 24px;
 }
