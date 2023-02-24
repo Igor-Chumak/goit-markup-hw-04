@@ -26,6 +26,7 @@
     --bg-color-btn-hero: #4D5AE5;
     --bg-color-btn-hero-hover: #404BBF;
     --bg-color-team-icon: #4D5AE5;
+    --bg-color-team-icon-hover: #404BBF;
     --bg-color-btn-portfolio: #F4F4FD;
     --bg-color-btn-portfolio-hover: #404BBF;
     --bg-color-btn-social: rgba(255, 255, 255, 0.1);
@@ -426,6 +427,10 @@ header {
     align-items: center;
     background-color: var(--bg-color-team-icon);
     border-radius: 50%;
+}
+
+.team-icon-ref:is(:hover, :focus) {
+    background-color: var(--bg-color-team-icon-hover);
 }
 
 .team-icon {
