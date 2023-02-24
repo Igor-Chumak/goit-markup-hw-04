@@ -237,7 +237,13 @@ header {
 
 .hero-section {
     padding: 188px 0;
-    background-color: var(--bg-color-dark);
+    
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)) , url(../images/people-office.jpg) ;
+    background-position 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    /* background-color: rgba(46, 47, 66, 0.7); */
 }
 
 .hero-title {
