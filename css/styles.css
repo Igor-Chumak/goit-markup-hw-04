@@ -6,6 +6,7 @@
     --color-secondary: #434455;
     --color-customs: #8E8F99;
     --color-accent: #404BBF;
+    --color-social: #fff;
 
     /* color-text */
     --color-logo: #4D5AE5;
@@ -27,6 +28,8 @@
     --bg-color-team-icon: #4D5AE5;
     --bg-color-btn-portfolio: #F4F4FD;
     --bg-color-btn-portfolio-hover: #404BBF;
+    --bg-color-btn-social: rgba(255, 255, 255, 0.1);
+    --bg-color-btn-social-hover: #31D0AA;
 
     /* border-color */
     --brd-color: #E7E9FC;
@@ -222,8 +225,15 @@ header {
     background-color: var(--bg-color-dark);
 }
 
+.footer-flex {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 120px;
+}
+
 .footer-content {
-    width: 264px;
+    max-width: 264px;
     /* outline: 1px dotted white; */
 }
 
@@ -231,6 +241,38 @@ header {
     color: var(--color-footer);
     letter-spacing: 0.02em;
     margin-top: 16px;
+}
+
+.footer-social {
+    max-width: 208px;
+    /* outline: 1px dotted white; */
+
+    color: var(--color-social);
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+
+.footer-icons-box {
+    margin-top: 16px;
+    display: flex;
+    gap: 16px;
+}
+
+.footer-icon-box {
+    width: 40px;
+    height: 40px;
+    background-color: var(--bg-color-btn-social);
+    border-radius: 50%;
+    padding: 8px;
+}
+
+.footer-icon-box:is(:hover, :focus) {
+    background-color: var(--bg-color-btn-social-hover);
+}
+
+.footer-icon {
+    width: 24px;
+    height: 24px;
 }
 
 /* -- Main Page -- */
@@ -374,7 +416,6 @@ header {
     width: 16px;
     height: 16px;
 }
-
 
 .customers-section {
     padding: 130px 0 120px 0;
